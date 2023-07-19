@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  height: 100%;
+  margin: 100px auto;
+  background: url(../images/ts.jpg) no-repeat center;
+  background-size: cover;
+  /* border: 1px solid #222; */
+
+  padding-bottom: 10px;
+  position: relative;
+}
+input {
+  font-size: 5px;
+  border: 1px solid #222;
+  width: 150px;
+  height: 20px;
+}
+input::placeholder {
+  text-indent: 5px;
+}
+input::placeholder {
+  padding: 5px 0px;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  /* border-bottom: 1px dashed rgb(73, 73, 73); */
+  /* background-color: #e00000; */
+  color: #fed700;
+  height: 40px;
+  line-height: 30px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #064288;
+  text-shadow: 0px 1px 2px #222;
+  width: 750px;
+  letter-spacing: -5px;
+  margin: auto;
+  font-size: 100px;
+  font-weight: 1500;
+  padding: 50px 0;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+#btn {
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.inputField button {
+  background-color: #e10024;
+  border: 0;
+  border-radius: 2px;
+  color: #fed700;
+  /* color: #ca0700; */
+}
+input {
+  width: 420px;
+  height: 40px;
+  vertical-align: 7px;
+  margin-right: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+input::placeholder {
+  align-items: center;
+}
+.inputField {
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.footer {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.footer button {
+  background: #e10024;
+  width: 100px;
+  height: 35px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer button p {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1px;
+  color: #fed700;
+}
